@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Cerchio esterno -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M32,8 A24,24 0,1,0 32,56 A24,24 0,1,0 32,8 Z"/>
+    <!-- Crosshair orizzontale -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M8,32 L56,32"/>
+    <!-- Crosshair verticale -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M32,8 L32,56"/>
+    <!-- Punto centrale -->
+    <path
+        android:fillColor="#FFE94560"
+        android:pathData="M32,29 A3,3 0,1,0 32,35 A3,3 0,1,0 32,29 Z"/>
+</vector>

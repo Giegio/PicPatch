@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.sidekick.app-mergeDebugResources-60:/layout/activity_gallery.xml",
+        "source": "com.sidekick.app-main-63:/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-mergeDebugResources-60:\\layout\\activity_gallery.xml",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\activity_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-mergeDebugResources-60:\\layout\\activity_ar.xml",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\activity_ar.xml"
+    },
+    {
+        "merged": "com.sidekick.app-mergeDebugResources-60:/layout/fragment_detail.xml",
+        "source": "com.sidekick.app-main-63:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-mergeDebugResources-60:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-mergeDebugResources-60:\\layout\\item_card.xml",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\item_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-mergeDebugResources-60:\\layout\\activity_gps_unlock.xml",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\activity_gps_unlock.xml"
+    },
+    {
+        "merged": "com.sidekick.app-mergeDebugResources-60:/layout/activity_gps_unlock.xml",
+        "source": "com.sidekick.app-main-63:/layout/activity_gps_unlock.xml"
+    }
+]

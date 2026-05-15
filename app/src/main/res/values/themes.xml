@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme: light, feminine -->
+    <style name="Theme.PicPatch" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="android:statusBarColor">@color/color_background</item>
+        <item name="android:navigationBarColor">@color/color_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- AR Activity: fullscreen, no status bar -->
+    <style name="Theme.PicPatch.AR" parent="Theme.PicPatch">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+
+    <!-- Card unlocked: rounded, elevated (Polaroid) -->
+    <style name="Widget.PicPatch.Card.Unlocked" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#FFFFFF</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <!-- Card locked: flat, transparent -->
+    <style name="Widget.PicPatch.Card.Locked" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+
+    <!-- DetailFragment fullscreen dialog -->
+    <style name="Theme.PicPatch.FullscreenDialog" parent="Theme.PicPatch">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/color_lilla</item>
+        <item name="android:windowAnimationStyle">@style/Animation.PicPatch.SlideUp</item>
+    </style>
+
+    <!-- Animazione slide-up per il detail dialog -->
+    <style name="Animation.PicPatch.SlideUp" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+</resources>

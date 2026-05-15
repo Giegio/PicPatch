@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sidekick.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <!-- ───── Permissions ───── -->
+12
+13
+14    <!-- Camera: obbligatoria per ARCore -->
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:8:5-65
+15-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:8:22-62
+16
+17    <!-- GPS per card di tipo GPS/HYBRID -->
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:11:5-79
+18-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:12:5-81
+19-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:13:5-77
+20-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:13:22-74
+21
+22    <!--
+23         ARCore hardware feature
+24         required="true" → solo device con ARCore supportato.
+25         Cambia in "false" se vuoi distribuire anche su device senza AR
+26         (l'ARActivity mostrerà un fallback).
+27    -->
+28    <uses-feature
+28-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:19:5-21:35
+29        android:name="android.hardware.camera.ar"
+29-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:20:9-50
+30        android:required="true" />
+30-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:21:9-32
+31
+32    <!-- Camera feature esplicita -->
+33    <uses-feature
+33-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:24:5-26:35
+34        android:name="android.hardware.camera"
+34-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:25:9-47
+35        android:required="true" />
+35-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:26:9-32
+36
+37    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Needed to load gltf from network. -->
+37-->[io.github.sceneview:arsceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\1e8e927732f6601eb26969f88b648bf6\workspace\transformed\arsceneview-0.9.8\AndroidManifest.xml:9:5-71
+37-->[io.github.sceneview:arsceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\1e8e927732f6601eb26969f88b648bf6\workspace\transformed\arsceneview-0.9.8\AndroidManifest.xml:9:22-68
+38    <uses-permission android:name="android.permission.INTERNET" /> <!-- SceneView requires OpenGLES 3.0 or later for 3D rendering. -->
+38-->[io.github.sceneview:sceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\289e5ebac5e28282c28a79b54d622c11\workspace\transformed\sceneview-0.9.8\AndroidManifest.xml:8:5-67
+38-->[io.github.sceneview:sceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\289e5ebac5e28282c28a79b54d622c11\workspace\transformed\sceneview-0.9.8\AndroidManifest.xml:8:22-64
+39    <uses-feature
+39-->[io.github.sceneview:sceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\289e5ebac5e28282c28a79b54d622c11\workspace\transformed\sceneview-0.9.8\AndroidManifest.xml:11:5-13:35
+40        android:glEsVersion="0x00030000"
+40-->[io.github.sceneview:sceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\289e5ebac5e28282c28a79b54d622c11\workspace\transformed\sceneview-0.9.8\AndroidManifest.xml:12:9-41
+41        android:required="true" />
+41-->[io.github.sceneview:sceneview:0.9.8] C:\Users\pietr\.gradle\caches\9.3.1\transforms\289e5ebac5e28282c28a79b54d622c11\workspace\transformed\sceneview-0.9.8\AndroidManifest.xml:13:9-32
+42
+43    <uses-permission android:name="android.permission.REORDER_TASKS" />
+43-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:23:5-72
+43-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:23:22-69
+44
+45    <permission
+45-->[androidx.core:core:1.13.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\f70f124cbb249d0d441fef910582578b\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+46        android:name="com.sidekick.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.13.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\f70f124cbb249d0d441fef910582578b\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.13.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\f70f124cbb249d0d441fef910582578b\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+48
+49    <uses-permission android:name="com.sidekick.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+49-->[androidx.core:core:1.13.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\f70f124cbb249d0d441fef910582578b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+49-->[androidx.core:core:1.13.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\f70f124cbb249d0d441fef910582578b\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+50
+51    <queries>
+51-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:20:5-27:15
+52        <package android:name="com.google.ar.core" />
+52-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:21:9-54
+52-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:21:18-51
+53        <package android:name="com.android.vending" />
+53-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:22:9-55
+53-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:22:18-52
+54
+55        <intent>
+55-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:24:9-26:18
+56            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+56-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:25:13-96
+56-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:25:21-93
+57        </intent>
+58    </queries>
+59
+60    <application
+60-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:28:5-71:19
+61        android:name="com.sidekick.app.PicPatchApp"
+61-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:29:9-36
+62        android:allowBackup="false"
+62-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:30:9-36
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.13.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\f70f124cbb249d0d441fef910582578b\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+64        android:debuggable="true"
+65        android:extractNativeLibs="false"
+65-->INJECTED
+66        android:icon="@mipmap/ic_launcher"
+66-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:31:9-43
+67        android:label="@string/app_name"
+67-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:32:9-41
+68        android:roundIcon="@mipmap/ic_launcher_round"
+68-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:33:9-54
+69        android:supportsRtl="true"
+69-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:34:9-35
+70        android:testOnly="true"
+71        android:theme="@style/Theme.PicPatch" >
+71-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:35:9-46
+72
+73        <!-- Metadato ARCore obbligatorio -->
+74        <meta-data
+74-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:38:9-41:45
+75            android:name="com.google.ar.core"
+75-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:39:13-46
+76            android:value="required" />
+76-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:40:13-37
+77
+78        <!-- ───── Activities ───── -->
+79
+80        <activity
+80-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:45:9-53:20
+81            android:name="com.sidekick.app.ui.gallery.GalleryActivity"
+81-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:46:13-55
+82            android:exported="true"
+82-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:47:13-36
+83            android:windowSoftInputMode="adjustResize" >
+83-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:48:13-55
+84            <intent-filter>
+84-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:49:13-52:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:50:17-69
+85-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:50:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:17-77
+87-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:27-74
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:55:9-59:56
+91            android:name="com.sidekick.app.ui.ar.ARActivity"
+91-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:56:13-45
+92            android:exported="false"
+92-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:57:13-37
+93            android:screenOrientation="portrait"
+93-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:58:13-49
+94            android:theme="@style/Theme.PicPatch.AR" />
+94-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:59:13-53
+95        <activity
+95-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:61:9-65:53
+96            android:name="com.sidekick.app.ui.gps.GPSActivity"
+96-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:62:13-47
+97            android:exported="false"
+97-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:63:13-37
+98            android:screenOrientation="portrait"
+98-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:64:13-49
+99            android:theme="@style/Theme.PicPatch" />
+99-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:65:13-50
+100
+101        <receiver
+101-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:67:9-69:40
+102            android:name="com.sidekick.app.notification.NotificationReceiver"
+102-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:68:13-62
+103            android:exported="false" />
+103-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:69:13-37
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\3a0f776ad3edd9fc4cff7fa731b4478f\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\3a0f776ad3edd9fc4cff7fa731b4478f\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\3a0f776ad3edd9fc4cff7fa731b4478f\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\3a0f776ad3edd9fc4cff7fa731b4478f\workspace\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2e9aeb1e5f3740393d11ee9f2bb3156f\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2e9aeb1e5f3740393d11ee9f2bb3156f\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2e9aeb1e5f3740393d11ee9f2bb3156f\workspace\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+113
+114        <activity
+114-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:26:9-35:20
+115            android:name="androidx.fragment.app.testing.EmptyFragmentActivity"
+115-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:27:13-79
+116            android:exported="true"
+116-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:28:13-36
+117            android:multiprocess="true"
+117-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:29:13-40
+118            android:taskAffinity=""
+118-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:30:13-36
+119            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+119-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:31:13-78
+120            <intent-filter>
+120-->[androidx.fragment:fragment-testing-manifest:1.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\9d198e2f7a5db15218a4bb9e6f4d1349\workspace\transformed\fragment-testing-manifest-1.6.2\AndroidManifest.xml:32:13-34:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:50:17-69
+121-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:50:25-66
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+125            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+125-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+126            android:exported="true"
+126-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+127            android:theme="@style/WhiteBackgroundTheme" >
+127-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+128            <intent-filter android:priority="-100" >
+128-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+128-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+129                <category android:name="android.intent.category.LAUNCHER" />
+129-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:17-77
+129-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:27-74
+130            </intent-filter>
+131        </activity>
+132        <activity
+132-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+133            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+133-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+134            android:exported="true"
+134-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+135            android:theme="@style/WhiteBackgroundTheme" >
+135-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+136            <intent-filter android:priority="-100" >
+136-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+136-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+137                <category android:name="android.intent.category.LAUNCHER" />
+137-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:17-77
+137-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:27-74
+138            </intent-filter>
+139        </activity>
+140        <activity
+140-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+141            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+141-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+142            android:exported="true"
+142-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+143            android:theme="@style/WhiteBackgroundDialogTheme" >
+143-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+144            <intent-filter android:priority="-100" >
+144-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+144-->[androidx.test:core:1.5.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\eb4b03f4115e5a5a0da37cc7ef408687\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+145                <category android:name="android.intent.category.LAUNCHER" />
+145-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:17-77
+145-->C:\Users\pietr\projects\PhotoBook\app\src\main\AndroidManifest.xml:51:27-74
+146            </intent-filter>
+147        </activity>
+148
+149        <provider
+149-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+150            android:name="androidx.startup.InitializationProvider"
+150-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+151            android:authorities="com.sidekick.app.androidx-startup"
+151-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+152            android:exported="false" >
+152-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+153            <meta-data
+153-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+154-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+155                android:value="androidx.startup" />
+155-->[androidx.emoji2:emoji2:1.3.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\ae1c5a396913f8eea94cc3d9a56a1279\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\793fe52b3c91ca636dfdce6c52f20126\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+157-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\793fe52b3c91ca636dfdce6c52f20126\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+158                android:value="androidx.startup" />
+158-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\793fe52b3c91ca636dfdce6c52f20126\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+159            <meta-data
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+160                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+161                android:value="androidx.startup" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+162        </provider> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+163        <meta-data
+163-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:32:9-34:41
+164            android:name="com.google.ar.core.min_apk_version"
+164-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:33:13-62
+165            android:value="240350000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+165-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:34:13-38
+166        <activity
+166-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:36:9-42:80
+167            android:name="com.google.ar.core.InstallActivity"
+167-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:37:13-62
+168            android:configChanges="keyboardHidden|orientation|screenSize"
+168-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:38:13-74
+169            android:excludeFromRecents="true"
+169-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:39:13-46
+170            android:exported="false"
+170-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:40:13-37
+171            android:launchMode="singleTop"
+171-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:41:13-43
+172            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+172-->[com.google.ar:core:1.43.0] C:\Users\pietr\.gradle\caches\9.3.1\transforms\4965dc4bbc953f7ef36d439f27b7e932\workspace\transformed\core-1.43.0\AndroidManifest.xml:42:13-77
+173
+174        <receiver
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+175            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+176            android:directBootAware="false"
+176-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+177            android:enabled="true"
+177-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+178            android:exported="true"
+178-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+179            android:permission="android.permission.DUMP" >
+179-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+181                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+182            </intent-filter>
+183            <intent-filter>
+183-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+184                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+185            </intent-filter>
+186            <intent-filter>
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+187                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+188            </intent-filter>
+189            <intent-filter>
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+190                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\pietr\.gradle\caches\9.3.1\transforms\6fc604421e0d2dfd33f6b3994418ec0c\workspace\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+191            </intent-filter>
+192        </receiver>
+193    </application>
+194
+195</manifest>

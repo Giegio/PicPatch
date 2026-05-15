@@ -1,0 +1,123 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "type": "TIMER",
+      "title": "Il primo giorno",
+      "dedication": "Ogni grande viaggio inizia con un piccolo passo. Questo è il tuo primo.",
+      "photoPath": "cards/card_01/photo.jpg"
+    },
+    {
+      "id": 2,
+      "type": "TIMER",
+      "title": "Un sorriso per te",
+      "dedication": "Pensavo a te quando ho scelto questa foto. Spero ti faccia sorridere.",
+      "photoPath": "cards/card_02/photo.jpg"
+    },
+    {
+      "id": 3,
+      "type": "TIMER",
+      "title": "Ricordo preferito",
+      "dedication": "Tra tutti i momenti vissuti insieme, questo è quello che custodisco di più.",
+      "photoPath": "cards/card_03/photo.jpg"
+    },
+    {
+      "id": 4,
+      "type": "TIMER",
+      "title": "Cose che ammiro",
+      "dedication": "Ammiro la tua forza, la tua gentilezza e il modo in cui affronti ogni giorno.",
+      "photoPath": "cards/card_04/photo.jpg"
+    },
+    {
+      "id": 5,
+      "type": "TIMER",
+      "title": "Un posto speciale",
+      "dedication": "Questo posto mi ricorda sempre di te. Spero un giorno di tornarci insieme.",
+      "photoPath": "cards/card_05/photo.jpg"
+    },
+    {
+      "id": 6,
+      "type": "TIMER",
+      "title": "Promessa",
+      "dedication": "Ti prometto di esserci sempre, nei giorni grigi e in quelli pieni di luce.",
+      "photoPath": "cards/card_06/photo.jpg"
+    },
+    {
+      "id": 7,
+      "type": "TIMER",
+      "title": "Momento di calma",
+      "dedication": "Fermati un attimo. Respira. Sei esattamente dove devi essere.",
+      "photoPath": "cards/card_07/photo.jpg"
+    },
+    {
+      "id": 8,
+      "type": "TIMER",
+      "title": "La tua luce",
+      "dedication": "Illumini ogni stanza in cui entri, anche quando non te ne accorgi.",
+      "photoPath": "cards/card_08/photo.jpg"
+    },
+    {
+      "id": 9,
+      "type": "TIMER",
+      "title": "Avventura",
+      "dedication": "L'avventura più bella è quella che non hai ancora vissuto. Ti aspetta.",
+      "photoPath": "cards/card_09/photo.jpg"
+    },
+    {
+      "id": 10,
+      "type": "TIMER",
+      "title": "Grazie",
+      "dedication": "Grazie per tutto quello che sei e per tutto quello che mi hai dato.",
+      "photoPath": "cards/card_10/photo.jpg"
+    },
+    {
+      "id": 11,
+      "type": "TIMER",
+      "title": "Il tuo coraggio",
+      "dedication": "Hai affrontato cose difficili con un coraggio che mi lascia senza parole.",
+      "photoPath": "cards/card_11/photo.jpg"
+    },
+    {
+      "id": 12,
+      "type": "TIMER",
+      "title": "Per sempre",
+      "dedication": "Alcune cose non cambiano mai. Il mio voler bene è una di quelle.",
+      "photoPath": "cards/card_12/photo.jpg"
+    },
+    {
+      "id": 13,
+      "type": "GPS",
+      "title": "Il nostro posto",
+      "dedication": "Sei tornata qui. Questo posto sa già tutto di noi.",
+      "photoPath": "cards/card_13/photo.jpg",
+      "gpsLat": 43.82190083462946,
+      "gpsLon": 11.12955491353497,
+      "gpsRadiusMeters": 5.0,
+      "gpsHint": "Cerca dove tutto ha avuto inizio..."
+    },
+    {
+      "id": 14,
+      "type": "GPS",
+      "title": "Trova il segno",
+      "dedication": "Hai trovato il segno che ho lasciato per te. Ora sai che ti penso.",
+      "photoPath": "cards/card_14/photo.jpg",
+      "markerPath": "cards/card_14/marker.jpg",
+      "gpsLat": 43.78233272898263,
+      "gpsLon": 11.252099276073062,
+      "gpsRadiusMeters": 5.0,
+      "gpsHint": "Segui il fiume fino a quel ponte che ti piace tanto."
+    },
+    {
+      "id": 15,
+      "type": "GPS",
+      "title": "La missione finale",
+      "dedication": "Sei straordinaria. Questo era solo per dirtelo.",
+      "photoPath": "cards/card_15/photo.jpg",
+      "markerPath": "cards/card_15/marker.jpg",
+      "gpsLat": 43.81754510595899,
+      "gpsLon": 11.127044550719297,
+      "gpsRadiusMeters": 5.0,
+      "gpsHint": "L'ultimo mistero si nasconde dove amiamo passeggiare."
+    }
+  ]
+}

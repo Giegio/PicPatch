@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PicPatch</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">I nostri momenti magici</string>
+    <string name="progress_format">%1$d / %2$d scoperte</string>
+    <string name="card_locked">Ancora un segreto…</string>
+
+    <!-- Unlock toast -->
+    <string name="toast_unlocked">✨ Un nuovo capitolo ti aspetta!</string>
+    <string name="toast_timer_locked">Questo ricordo si svelerà al momento giusto…</string>
+
+    <!-- Detail -->
+    <string name="btn_view_ar">Vedi in AR</string>
+    <string name="btn_close">Chiudi</string>
+
+    <!-- AR -->
+    <string name="ar_approach">Avvicinati al luogo…</string>
+    <string name="ar_scanning">Inquadra il marker…</string>
+    <string name="ar_approach_and_scan">Avvicinati e inquadra il marker…</string>
+    <string name="ar_tracking">Cercando la magia…</string>
+    <string name="ar_close">✕</string>
+    <string name="ar_not_supported">Il tuo telefono non vede ancora la magia (No AR support)</string>
+
+    <!-- Permissions -->
+    <string name="perm_camera_rationale">Ho bisogno della fotocamera per mostrarti la magia!</string>
+    <string name="perm_location_rationale">Devi essere nel posto giusto per sbloccare questo ricordo!</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_name">Promemoria Sorprese</string>
+    <string name="notification_title">È tempo di un nuovo ricordo…</string>
+    <string name="notification_text">Corri a scoprire cosa ti aspetta oggi! ✨</string>
+</resources>

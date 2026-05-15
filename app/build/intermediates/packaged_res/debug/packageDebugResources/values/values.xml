@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYD
+            VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FudGEgTW9u
+            aWNhMREwDwYDVQQKEwhBbmRyb2lkMRAwDgYDVQQLEwdBbmRyb2lkMRAwDgYDVQQD
+            EwdBbmRyb2lkMSEwHwYJKoZIhvcNAQkBFhJhbmRyb2lkQGFuZHJvaWQuY29t
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHMxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBW
+            aWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEPMA0G
+            A1UEAxMGR29vZ2xl
+        </item>
+    </string-array>
+    <color name="color_accent_gold">#FFD700</color>
+    <color name="color_ar_close_btn">#CCFFFFFF</color>
+    <color name="color_ar_overlay">#99000000</color>
+    <color name="color_ar_reticle">#FFD700</color>
+    <color name="color_background">#F5F0FF</color>
+    <color name="color_card_locked_bg">#E0E0E0</color>
+    <color name="color_card_locked_fg">#9E9E9E</color>
+    <color name="color_card_unlocked_bg">#FFFFFF</color>
+    <color name="color_lilla">#E1D5F5</color>
+    <color name="color_lock_icon">#BDBDBD</color>
+    <color name="color_on_background">#311B92</color>
+    <color name="color_on_lilla">#5E35B1</color>
+    <color name="color_on_oro">#FBC02D</color>
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_on_rosa">#D81B60</color>
+    <color name="color_on_secondary">#FFFFFF</color>
+    <color name="color_on_surface">#311B92</color>
+    <color name="color_oro_pastello">#FFF9C4</color>
+    <color name="color_primary">#9575CD</color>
+    <color name="color_primary_variant">#7E57C2</color>
+    <color name="color_progress_indicator">#9575CD</color>
+    <color name="color_progress_track">#EDE7F6</color>
+    <color name="color_rosa_cipria">#FCE4EC</color>
+    <color name="color_secondary">#D4AF37</color>
+    <color name="color_secondary_variant">#CFB53B</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_toast_bg">#FCE4EC</color>
+    <color name="color_toast_text">#D81B60</color>
+    <color name="ic_launcher_background">#EAE7DB</color>
+    <string name="app_name">PicPatch</string>
+    <string name="ar_approach">Avvicinati al luogo…</string>
+    <string name="ar_approach_and_scan">Avvicinati e inquadra il marker…</string>
+    <string name="ar_close">✕</string>
+    <string name="ar_not_supported">Il tuo telefono non vede ancora la magia (No AR support)</string>
+    <string name="ar_scanning">Inquadra il marker…</string>
+    <string name="ar_tracking">Cercando la magia…</string>
+    <string name="btn_close">Chiudi</string>
+    <string name="btn_view_ar">Vedi in AR</string>
+    <string name="card_locked">Ancora un segreto…</string>
+    <string name="gallery_title">I nostri momenti magici</string>
+    <string name="notification_channel_name">Promemoria Sorprese</string>
+    <string name="notification_text">Corri a scoprire cosa ti aspetta oggi! ✨</string>
+    <string name="notification_title">È tempo di un nuovo ricordo…</string>
+    <string name="perm_camera_rationale">Ho bisogno della fotocamera per mostrarti la magia!</string>
+    <string name="perm_location_rationale">Devi essere nel posto giusto per sbloccare questo ricordo!</string>
+    <string name="progress_format">%1$d / %2$d scoperte</string>
+    <string name="toast_timer_locked">Questo ricordo si svelerà al momento giusto…</string>
+    <string name="toast_unlocked">✨ Un nuovo capitolo ti aspetta!</string>
+    <style name="Animation.PicPatch.SlideUp" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="Theme.PicPatch" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="android:statusBarColor">@color/color_background</item>
+        <item name="android:navigationBarColor">@color/color_background</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+    </style>
+    <style name="Theme.PicPatch.AR" parent="Theme.PicPatch">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" ns1:targetApi="o_mr1">shortEdges</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+    <style name="Theme.PicPatch.FullscreenDialog" parent="Theme.PicPatch">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/color_lilla</item>
+        <item name="android:windowAnimationStyle">@style/Animation.PicPatch.SlideUp</item>
+    </style>
+    <style name="Widget.PicPatch.Card.Locked" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+    <style name="Widget.PicPatch.Card.Unlocked" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#FFFFFF</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+</resources>

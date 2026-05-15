@@ -1,0 +1,41 @@
+<resources>
+    <!-- New Brand palette (Vivace & Romantico) -->
+    <color name="color_primary">#9575CD</color>          <!-- Lilla Primary -->
+    <color name="color_primary_variant">#7E57C2</color>
+    <color name="color_secondary">#D4AF37</color>        <!-- Oro Accento -->
+    <color name="color_secondary_variant">#CFB53B</color>
+    <color name="color_background">#F5F0FF</color>       <!-- Light Lilac Background -->
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_on_secondary">#FFFFFF</color>
+    <color name="color_on_background">#311B92</color>    <!-- Deep Purple for text -->
+    <color name="color_on_surface">#311B92</color>
+
+    <!-- Card states (Mockup grid) -->
+    <color name="color_lilla">#E1D5F5</color>
+    <color name="color_rosa_cipria">#FCE4EC</color>
+    <color name="color_oro_pastello">#FFF9C4</color>
+    
+    <color name="color_on_lilla">#5E35B1</color>
+    <color name="color_on_rosa">#D81B60</color>
+    <color name="color_on_oro">#FBC02D</color>
+
+    <color name="color_card_locked_bg">#E0E0E0</color> <!-- Fallback -->
+    <color name="color_card_locked_fg">#9E9E9E</color>
+    <color name="color_card_unlocked_bg">#FFFFFF</color>
+    <color name="color_lock_icon">#BDBDBD</color>
+
+    <!-- Progress bar -->
+    <color name="color_progress_track">#EDE7F6</color>
+    <color name="color_progress_indicator">#9575CD</color>
+
+    <!-- AR overlay -->
+    <color name="color_ar_overlay">#99000000</color>
+    <color name="color_ar_reticle">#FFD700</color>      <!-- Gold reticle -->
+    <color name="color_ar_close_btn">#CCFFFFFF</color>
+
+    <!-- Toast background -->
+    <color name="color_toast_bg">#FCE4EC</color>        <!-- Rosa for toast -->
+    <color name="color_toast_text">#D81B60</color>
+    <color name="color_accent_gold">#FFD700</color>
+</resources>

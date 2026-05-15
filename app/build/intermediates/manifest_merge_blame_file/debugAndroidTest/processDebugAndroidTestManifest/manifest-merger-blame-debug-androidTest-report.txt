@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sidekick.app.test" >
+4
+5    <uses-sdk
+5-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:7:5-11:66
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:7:22-76
+11        android:functionalTest="false"
+11-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:10:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:9:22-53
+13        android:label="Tests for com.sidekick.app"
+13-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:11:22-64
+14        android:targetPackage="com.sidekick.app" />
+14-->C:\Users\pietr\projects\PhotoBook\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13883582318091428532.xml:8:22-62
+15
+16    <queries>
+16-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+17        <package android:name="androidx.test.orchestrator" />
+17-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+17-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+18        <package android:name="androidx.test.services" />
+18-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+18-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+19        <package android:name="com.google.android.apps.common.testing.services" />
+19-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+19-->[androidx.test:runner:1.5.2] C:\Users\pietr\.gradle\caches\9.3.1\transforms\2af05f43ffdba155a86cf3112e73e487\workspace\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+20    </queries>
+21
+22    <application
+22-->INJECTED
+23        android:debuggable="true"
+24        android:extractNativeLibs="false" />
+24-->INJECTED
+25
+26</manifest>

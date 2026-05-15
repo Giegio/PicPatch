@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sidekick.app-debug-61:/layout_fragment_detail.xml.flat",
+        "source": "com.sidekick.app-main-63:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_lock_flower.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_lock_flower.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\layout_activity_gps_unlock.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\activity_gps_unlock.xml"
+    },
+    {
+        "merged": "com.sidekick.app-debug-61:/layout_activity_gps_unlock.xml.flat",
+        "source": "com.sidekick.app-main-63:/layout/activity_gps_unlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\layout_fragment_detail.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_card_unlocked.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_card_unlocked.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_ar_label.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_ar_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_card_locked.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_card_locked.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\font_inter_regular.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\font\\inter_regular.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\layout_activity_gallery.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\activity_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_toast.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\font_inter_bold.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\font\\inter_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_detail_sheet.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_detail_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\layout_activity_ar.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\activity_ar.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.sidekick.app-debug-61:/layout_activity_gallery.xml.flat",
+        "source": "com.sidekick.app-main-63:/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_card_locked_lilac.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_card_locked_lilac.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_ar.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_ar.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_card_locked_pink.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_card_locked_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_gradient_photo_bottom.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\gradient_photo_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_navigation_arrow.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_navigation_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_lock_heart.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_lock_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\font_inter_semibold.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\font\\inter_semibold.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\font_dancing_script.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\font\\dancing_script.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_floral_pattern.png.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_floral_pattern.png"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_bg_flowers.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_bg_flowers.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\anim_slide_up.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\layout_item_card.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\layout\\item_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\anim_slide_down.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_reticle.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_reticle.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_bg_card_locked_gold.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\bg_card_locked_gold.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\drawable_ic_lock_star.xml.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\drawable\\ic_lock_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-debug-61:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pietr\\.gradle\\daemon\\9.3.1\\com.sidekick.app-main-63:\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]
