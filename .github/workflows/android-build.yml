@@ -30,13 +30,24 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      # 4. Esegue la build di debug e i test unitari
-      - name: Build with Gradle
-        run: ./gradlew assembleDebug
+      # 4. Esegue la build di "Release" non firmata
+      - name: Build Unsigned Release APK
+        run: ./gradlew assembleRelease
 
-      # 5. Carica l'APK generato come "Artifact" così puoi scaricarlo da GitHub
-      - name: Upload APK
+      # 5. Firma l'APK usando l'azione r0adkll
+      - name: Sign Release APK
+        uses: r0adkll/sign-android-release@v1
+        id: sign_app
+        with:
+          releaseDirectory: app/build/outputs/apk/release
+          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
+          alias: ${{ secrets.ALIAS }}
+          keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.KEY_PASSWORD }}
+
+      # 6. Carica l'APK FIRMATO come "Artifact" scaricabile
+      - name: Upload Signed APK
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: PicPatch-Release
+          path: ${{ steps.sign_app.outputs.signedReleaseFile }}
