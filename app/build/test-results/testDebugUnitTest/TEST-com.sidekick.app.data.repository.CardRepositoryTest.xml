@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sidekick.app.data.repository.CardRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-03T22:04:18.527Z" hostname="PIETRO_WORK" time="0.737">
+  <properties/>
+  <testcase name="timerCards filters correctly" classname="com.sidekick.app.data.repository.CardRepositoryTest" time="0.718"/>
+  <testcase name="cards are parsed correctly" classname="com.sidekick.app.data.repository.CardRepositoryTest" time="0.005"/>
+  <testcase name="getById returns correct card or null" classname="com.sidekick.app.data.repository.CardRepositoryTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

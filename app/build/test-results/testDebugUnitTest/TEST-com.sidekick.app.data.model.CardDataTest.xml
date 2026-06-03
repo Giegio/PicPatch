@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sidekick.app.data.model.CardDataTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-03T22:04:10.785Z" hostname="PIETRO_WORK" time="0.036">
+  <properties/>
+  <testcase name="CardData fields default correctly" classname="com.sidekick.app.data.model.CardDataTest" time="0.004"/>
+  <testcase name="CardType enum coverage" classname="com.sidekick.app.data.model.CardDataTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

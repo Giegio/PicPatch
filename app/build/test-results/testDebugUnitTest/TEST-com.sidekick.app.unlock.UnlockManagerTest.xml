@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sidekick.app.unlock.UnlockManagerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-03T22:04:38.566Z" hostname="PIETRO_WORK" time="0.622">
+  <properties/>
+  <testcase name="checkFirstLaunch initializes correctly and grants immediate draw" classname="com.sidekick.app.unlock.UnlockManagerTest" time="0.539"/>
+  <testcase name="drawTimerCard unlocks a card and resets timer" classname="com.sidekick.app.unlock.UnlockManagerTest" time="0.027"/>
+  <testcase name="unlockSpecialCard unlocks card only once" classname="com.sidekick.app.unlock.UnlockManagerTest" time="0.017"/>
+  <testcase name="drawTimerCard returns null if time has not passed" classname="com.sidekick.app.unlock.UnlockManagerTest" time="0.012"/>
+  <testcase name="drawTimerCard returns null if pool exhausted" classname="com.sidekick.app.unlock.UnlockManagerTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

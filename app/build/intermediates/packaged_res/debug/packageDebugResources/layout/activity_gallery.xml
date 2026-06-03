@@ -7,11 +7,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_background">
+
     <ImageView
         android:id="@+id/iv_bg_pattern"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.5"
+        android:alpha="0.35"
         android:scaleType="centerCrop"
         android:src="@drawable/bg_floral_pattern"
         app:layout_constraintBottom_toBottomOf="parent"

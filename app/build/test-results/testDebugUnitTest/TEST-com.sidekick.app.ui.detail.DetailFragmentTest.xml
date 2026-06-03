@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sidekick.app.ui.detail.DetailFragmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-03T22:04:20.261Z" hostname="PIETRO_WORK" time="13.066">
+  <properties/>
+  <testcase name="DetailFragment shows AR button only for AR cards" classname="com.sidekick.app.ui.detail.DetailFragmentTest" time="13.065"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

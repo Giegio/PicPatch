@@ -33,14 +33,14 @@ class GalleryActivityTest {
     }
 
     @Test
-    fun `gallery displays all 15 cards`() {
+    fun `gallery displays all cards dynamically`() {
         ActivityScenario.launch(GalleryActivity::class.java).use { scenario ->
             scenario.onActivity { activity ->
                 val recyclerView = activity.findViewById<RecyclerView>(R.id.rv_gallery)
                 assertNotNull(recyclerView)
                 
                 val adapter = recyclerView.adapter as GalleryAdapter
-                assertEquals(15, adapter.itemCount)
+                assertEquals(app.cardRepository.cards.size, adapter.itemCount)
             }
         }
     }
