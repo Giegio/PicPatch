@@ -148,19 +148,26 @@ jobs:
       - name: Create GitHub Release
         id: release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ORDER_ID="${{ github.event.client_payload.order_id }}"
-          gh release create "order-$ORDER_ID" \
-            --title "PicPatch — ${{ steps.order.outputs.recipient }}" \
-            --notes "Custom build for **${{ steps.order.outputs.email }}**
-            **Order:** \`${{ github.event.client_payload.order_number }}\`
-            **Cards:** ${{ steps.order.outputs.CARD_COUNT }}" \
-            --repo ${{ github.repository }} \
-            --prerelease \
-            "/tmp/${{ steps.apk.outputs.apk_name }}" || echo "Release may already exist"
+          TAG="order-${ORDER_ID:0:8}"
+          echo "Creating release with tag: $TAG"
+          echo "APK file: /tmp/${{ steps.apk.outputs.apk_name }}"
+          ls -la /tmp/
 
-          echo "download_url=https://github.com/${{ github.repository }}/releases/download/order-$ORDER_ID/${{ steps.apk.outputs.apk_name }}" >> $GITHUB_OUTPUT
+          gh release create "$TAG" \
+            --title "PicPatch — ${{ steps.order.outputs.recipient }}" \
+            --notes "**Ordine:** \`${{ github.event.client_payload.order_number }}\`
+          **Destinatario:** ${{ steps.order.outputs.recipient }}
+          **Cliente:** ${{ steps.order.outputs.email }}
+          **Card:** ${{ steps.order.outputs.CARD_COUNT }}" \
+            --repo ${{ github.repository }} \
+            "/tmp/${{ steps.apk.outputs.apk_name }}"
+
+          DL_URL="https://github.com/${{ github.repository }}/releases/download/$TAG/${{ steps.apk.outputs.apk_name }}"
+          echo "download_url=$DL_URL" >> $GITHUB_OUTPUT
+          echo "Release created: $DL_URL"
 
       - name: Notify Supabase webhook
         env:
